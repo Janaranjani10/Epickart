@@ -1,0 +1,68 @@
+/* Apply your desired styling here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.product-container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Split into two columns */
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-to-cart {
+    width: 150px;
+    height: 50px;
+    letter-spacing: 3px;
+    background-color: rgb(4, 74, 121);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+
+.customization-container1 {
+    padding: 20px;
+}
+
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.message-box {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#message-text {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+#send-button {
+    width: 150px;
+    height: 50px;
+    letter-spacing: 3px;
+    background-color: rgb(4, 74, 121);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
